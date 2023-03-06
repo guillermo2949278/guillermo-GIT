@@ -17,6 +17,8 @@ public class GuillermoGIT {
                 + "es: "+suma(valor1, valor2));
         System.out.println("El resultado de restar "+valor1+" y "+valor2+" "
                 + "es: "+resta(valor1, valor2));
+        System.out.println("El resultado de multiplicar "+valor1+" y "+valor2+" "
+                + "es: "+multiplica(valor1, valor2));
     }
     
     private static int suma (int num1, int num2){
@@ -26,6 +28,11 @@ public class GuillermoGIT {
     
     private static int resta (int num1, int num2){
         int resultado = num1-num2;
+        return resultado;
+    }
+    
+    private static int multiplica (int num1, int num2){
+        int resultado = num1*num2;
         return resultado;
     }
     

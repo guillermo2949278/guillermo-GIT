@@ -19,6 +19,7 @@ public class GuillermoGIT {
                 + "es: "+multiplica(valor2, valor1));
         System.out.println("El resultado de sumar "+valor2+" y "+valor1+" "
                 + "es: "+resta(valor2, valor1));
+        imprimeNombre();
     }
     
     private static int suma (int num1, int num2){
@@ -32,5 +33,9 @@ public class GuillermoGIT {
     
     private static int multiplica(int num1, int num2){
         return num1*num2;
+    }
+    
+    private static void imprimeNombre(){
+        System.out.println("Mi nombre es Guillermo Palazón Cano");
     }
 }

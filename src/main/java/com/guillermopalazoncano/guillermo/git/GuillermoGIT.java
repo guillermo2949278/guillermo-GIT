@@ -15,10 +15,17 @@ public class GuillermoGIT {
         int valor2 = 3;
         System.out.println("El resultado de sumar "+valor1+" y "+valor2+" "
                 + "es: "+suma(valor1, valor2));
+        System.out.println("El resultado de restar "+valor1+" y "+valor2+" "
+                + "es: "+resta(valor1, valor2));
     }
     
     private static int suma (int num1, int num2){
         int resultado = num1+num2;
+        return resultado;
+    }
+    
+    private static int resta (int num1, int num2){
+        int resultado = num1-num2;
         return resultado;
     }
     
